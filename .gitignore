@@ -5,3 +5,4 @@
 *.py
 config.py
 configlvl.py
+.gitignore
