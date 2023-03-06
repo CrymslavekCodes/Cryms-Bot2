@@ -4,3 +4,12 @@
 safety
 config.py
 configlvl.py
+*.toml 
+ !*.example* 
+ _* 
+ !__* 
+ *.code-* 
+ .vscode 
+ __pycache__ 
+ .vs
+ 
