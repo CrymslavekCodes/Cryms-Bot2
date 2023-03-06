@@ -1,8 +1,8 @@
 
 <h1 align="center">
-  Discord Python Bot(Creds in desc)
+  Discord Python Bot
 </h1>
-
+Credits Below↓↓
 
 <p align="center">
   <a href="https://discord.gg/xXnDqtYyKf"><img src="https://img.shields.io/discord/1054287234544713788?logo=discord"></a>
