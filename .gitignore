@@ -12,5 +12,5 @@ _*
 .vscode 
 __pycache__ 
 .vs
-safety
+/safety
 .gitignore
