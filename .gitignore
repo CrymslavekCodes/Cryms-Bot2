@@ -1,8 +1,8 @@
-.env
+env
 *.pyc
 *.env
 .vs/
-*.py
+*py
 config.py
 configlvl.py
-.gitignore
+gitignore
