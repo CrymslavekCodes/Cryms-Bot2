@@ -3,7 +3,7 @@
   Discord Python Bot(Creds in desc)
 </h1>
 
-<p align="center">Discord Python Bot Template, for those looking for ideas or starting to learn Python!<p>
+
 <p align="center">
   <a href="https://discord.gg/xXnDqtYyKf"><img src="https://img.shields.io/discord/1054287234544713788?logo=discord"></a>
   <a href="//github.com/CrymslavekCodes/Cryms-Bot2/"><img src="https://img.shields.io/github/repo-size/Person0z/discord.py-template"></a>
