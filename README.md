@@ -27,8 +27,8 @@
 A group of developers on discord on Cryms server(Crym's Hangout)
 
 <p align="center">
-  <a href="https://discord.gg/D8rjRN3uJQ"><img src="https://img.shields.io/897569767320354926?logo=discord"></a>
-  <a href="//github.com/Person0z/discord.py-template"><img src="https://img.shields.io/github/repo-size/CrymslavekCodes/cryms-bot2"></a>
+  <a href="https://discord.gg/D8rjRN3uJQ"><img src="https://shields.io/discord/897569767320354926"></a>
+  <a href="https://github.com/CrymslavekCodes/Cryms-Bot2"><img src="https://img.shields.io/github/repo-size/CrymslavekCodes/Cryms-Bot2"></a>
   <a href="//github.com/Person0z/discord.py-template/commits"><img src="https://img.shields.io/github/last-commit/CrymslavekCodes/cryms-bot2"></a>
   <a href="//github.com/Person0z/discord.py-template/contributors"><img src="https://img.shields.io/github/contributors/CrymslavekCodes/cryms-bot2"></a>
 </p>

@@ -6,15 +6,21 @@
 ###############################################
 
 # Imports Don't Remove any!!
-import disnake
-from disnake.ext import commands, tasks
+import asyncio
 import os
 import subprocess
 import platform
 import time
-import asyncio
 import random
 import sys
+import disnake
+from disnake.ext import commands, tasks
+from dotenv import load_dotenv
+from dotenv import find_dotenv
+
+env_file=find_dotenv(".env")
+load_dotenv(env_file)
+token=os.getenv("token")
 
 # Loading things from config
 import config    # The config will be updated to a better version soon, 
@@ -182,6 +188,4 @@ async def unload(inter: disnake.ApplicationCommandInteraction, cog: str):
         print(f'An error occured while unloading a cog! {e}')
     
 # Run The Bot 
-bot.run(config.token, reconnect=True)
-
-
+bot.run(token, reconnect=True)
