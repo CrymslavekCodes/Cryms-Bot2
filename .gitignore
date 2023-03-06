@@ -1,6 +1,6 @@
 .env
 *.pyc
 .vs/
-
+safety
 config.py
 configlvl.py

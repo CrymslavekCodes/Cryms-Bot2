@@ -24,7 +24,7 @@ load_dotenv(env_file)
 token=os.getenv("token")
 
 # Loading things from config
-import safety.config as config    # The config will be updated to a better version soon, 
+import config    # The config will be updated to a better version soon, 
         
 # Setting up the bot
 bot = commands.Bot(
@@ -112,7 +112,7 @@ async def status_task():
     await bot.change_presence(activity=disnake.Game(random.choice(config.activity)))
 
 # Load Cogs On Start
-for filename in os.listdir('./cogs'):
+for filename in os.listdir('./safety/cogs'):
     if filename.endswith('.py'):
         bot.load_extension(f'cogs.{filename[:-3]}')
 
