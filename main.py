@@ -20,6 +20,7 @@ from dotenv import find_dotenv
 
 env_file=find_dotenv(".env")
 load_dotenv(env_file)
+
 token=os.getenv("token")
 
 # Loading things from config
