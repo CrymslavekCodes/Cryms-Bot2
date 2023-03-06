@@ -1,6 +1,6 @@
-.env
-*.pyc
-
+.envenv
+*.pycpyc
+pyc
 .vs/
 
 config.py

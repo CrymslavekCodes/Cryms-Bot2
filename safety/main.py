@@ -24,7 +24,7 @@ load_dotenv(env_file)
 token=os.getenv("token")
 
 # Loading things from config
-import config    # The config will be updated to a better version soon, 
+import safety.config as config    # The config will be updated to a better version soon, 
         
 # Setting up the bot
 bot = commands.Bot(
