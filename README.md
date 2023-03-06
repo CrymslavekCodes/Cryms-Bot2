@@ -23,7 +23,7 @@
 - Radios (Play radio's from online sources)
 - Pastebin (uploads files to a pastebin so you dont have to download files that you dont trust)
 
-## Whos usingthis template?
+## Whos using this template?
 A group of developers on discord on Cryms server(Crym's Hangout)
 
 <p align="center">
