@@ -1,7 +1,0 @@
-.envenv
-*.pycpyc
-pyc
-.vs/
-
-config.py
-configlvl.py
