@@ -34,7 +34,7 @@ class help(commands.Cog):
                     title="General Commands!",
                     description="Check important commands, that you can use!",
                     colour=config.Success())
-                embedVar.add_field(name="Bot Prefix", value="```/ccv ```", inline=False)
+                embedVar.add_field(name="Bot Prefix", value="```/```", inline=False)
                 embedVar.add_field(name="Moderation Commands",
                                     value=
                                         "```/slowmode - Activate slow mode for a channel```" +
@@ -56,7 +56,7 @@ class help(commands.Cog):
                     title="Fun Commands!",
                     description="Check important commands, that you can use!",
                     colour=config.Success())
-                embedVar.add_field(name="Bot Prefix", value="```/ + !```", inline=False)
+                embedVar.add_field(name="Bot Prefix", value="```/```", inline=False)
                 embedVar.add_field(name="Fun Commands",
                                     value=
                                     "```/dice - Role a dice, get a number from 1-6```" +
@@ -75,7 +75,7 @@ class help(commands.Cog):
                     title="Ticket Commands!",
                     description="Check important commands, that you can use!",
                     colour=config.Success())
-                embedVar.add_field(name="Bot Prefix", value="```/ + !```", inline=False)
+                embedVar.add_field(name="Bot Prefix", value="```/```", inline=False)
                 embedVar.add_field(name="Ticket Commands",
                                     value=
                                     "```/ticket - Create a Ticket```" +
@@ -93,7 +93,7 @@ class help(commands.Cog):
                     title="Radio Commands!",
                     description="Check important commands, that you can use!",
                     colour=config.Success())
-                embedVar.add_field(name="Bot Prefix", value="```/ + !```", inline=False)
+                embedVar.add_field(name="Bot Prefix", value="```/```", inline=False)
                 embedVar.add_field(name="Radio Commands",
                                     value=
                                     "```/radio - Start a radio station```" +
