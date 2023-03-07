@@ -6,7 +6,7 @@
 #           Copyright© Person0z, 2022         #
 #           Do Not Remove This Header         #
 ###############################################
-#testing something
+
 import disnake
 from disnake.ext import commands
 import os
