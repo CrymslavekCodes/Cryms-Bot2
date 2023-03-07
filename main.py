@@ -17,6 +17,15 @@ import disnake
 from disnake.ext import commands, tasks
 from dotenv import load_dotenv
 from dotenv import find_dotenv
+from flask import Flask, render_template
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+  return render_template("index.html")
+
+app.run(host='0.0.0.0', port=8080)
+# always on since we use replit to host
 
 env_file=find_dotenv(".env")
 load_dotenv(env_file)
