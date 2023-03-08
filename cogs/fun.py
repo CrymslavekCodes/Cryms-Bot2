@@ -22,7 +22,15 @@ class fun(commands.Cog):
     @commands.Cog.listener()
     async def on_ready(self):
         print('Loaded Cog Fun')
-
+    
+    @commands.slash_command(
+        name="gay",
+        description="Get a gay percentage!"
+    )
+    async def commandName(ctx):
+        percentage = (random.randint(0, 100))
+        await ctx.send(f'Your shiprate is {percentage}')
+    
     # Dice Roll Slash Command
     @commands.slash_command(name="dice", description="Roll a dice!")
     async def dice(inter):
@@ -82,13 +90,6 @@ class fun(commands.Cog):
             print(f'Error sending randomfact message: {e}')
             await ctx.send(embed=errors.create_error_embed(f"Error sending randomfact command: {e}"))
             
-    @commands.slash_command(
-        name="gay",
-        description="Get a gay percentage!"
-    )
-    async def commandName(ctx):
-        percentage = (random.randint(0, 100))
-        await ctx.send(f'Your shiprate is {percentage}')
                 
 def setup(bot):
     bot.add_cog(fun(bot))
