@@ -82,7 +82,10 @@ class fun(commands.Cog):
             print(f'Error sending randomfact message: {e}')
             await ctx.send(embed=errors.create_error_embed(f"Error sending randomfact command: {e}"))
             
-    @commands.slash_command()
+    @commands.slash_command(
+        name="gay"
+        description="Get a gay percentage!"
+    )
     async def commandName(ctx):
         percentage = (random.randint(0, 100))
         await ctx.send(f'Your shiprate is {percentage}')
