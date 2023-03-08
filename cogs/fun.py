@@ -81,6 +81,11 @@ class fun(commands.Cog):
         except Exception as e:
             print(f'Error sending randomfact message: {e}')
             await ctx.send(embed=errors.create_error_embed(f"Error sending randomfact command: {e}"))
+            
+    @commands.slash_command()
+    async def commandName(ctx):
+        percentage = (random.randint(0, 100))
+        await ctx.send(f'Your shiprate is {percentage}')
                 
 def setup(bot):
     bot.add_cog(fun(bot))
