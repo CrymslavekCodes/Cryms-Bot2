@@ -83,7 +83,7 @@ class fun(commands.Cog):
             await ctx.send(embed=errors.create_error_embed(f"Error sending randomfact command: {e}"))
             
     @commands.slash_command(
-        name="gay"
+        name="gay",
         description="Get a gay percentage!"
     )
     async def commandName(ctx):
