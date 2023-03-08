@@ -64,6 +64,7 @@ class help(commands.Cog):
                                     "```/coinflip - Flip a coin, see what side it lands on!```" +
                                     "```/generate - Generate an image from a text!```" +
                                     "```/bitcoin - Check the current price of BitCoin```",
+                                   "```/gay - Get a gay percentage!(doesnt work quite yet)```",
                                     inline=False)
                 embedVar.set_thumbnail(
                     url="https://us-east-1.tixte.net/uploads/your-parents.wants.solutions/help.png"
