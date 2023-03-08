@@ -63,7 +63,7 @@ class help(commands.Cog):
                                     "```/8ball - Ask a question, get an \"Honest\" response```" +
                                     "```/coinflip - Flip a coin, see what side it lands on!```" +
                                     "```/generate - Generate an image from a text!```" +
-                                    "```/bitcoin - Check the current price of BitCoin```",
+                                    "```/bitcoin - Check the current price of BitCoin```"+
                                    "```/gay - Get a gay percentage!(doesnt work quite yet)```",
                                     inline=False)
                 embedVar.set_thumbnail(
