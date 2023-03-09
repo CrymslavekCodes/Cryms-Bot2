@@ -33,7 +33,8 @@ owner_ids = [550345850724024341, 7114331936469811611] # You can add more owner i
 
 # Welcomes & Goodbyes Channel ID
 welcome_channel = 955533754787594280
-
+# Join role
+join_role = 955521238237847612
 # Logging Channel ID
 logs = [910325791013875764] # You can add more channels by doing this: [channel_id, channel_id, channel_id]
 
